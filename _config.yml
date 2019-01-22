@@ -1,0 +1,39 @@
+url: http://mlsuho.me/personal-website
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Awesome Title
+email: contact@mlsuho.me
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+
+# Team names, titles and social links
+people:
+- name: Su Ho V.
+  pic: 1
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/mlsuho
+    - title: facebook
+      url: https://twitter.com/mlsuho
+    - title: linkedin
+      url: https://www.linkedin.com/in/mlsuho/
+    - title: github
+      url: https://www.github.com/mlsuho
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/mlsuho
+  - title: facebook
+    url: https://twitter.com/mlsuho
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Phu Thuan, Phu Vang
+  - line: Thua Thien Hue
+
+# Build settings
+markdown: kramdown
+permalink: pretty
