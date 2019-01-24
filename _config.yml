@@ -1,33 +1,45 @@
-url: http://mlsuho.me/personal-website
-baseurl: http://mlsuho.me/personal-website
+url: http://effogroup.com
+baseurl: 
 
 # Site settings
-title: Awesome Title
+title: EffoGroup
 email: contact@mlsuho.me
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Welcome to EffoGroup. Let's build business together."
 
 
 # Team names, titles and social links
 people:
 - name: Su Ho V.
-  pic: 1
-  position: Lead Developer
+  pic: su-ho
+  position: Technical Leader
   social:
     - title: twitter
       url: https://twitter.com/mlsuho
     - title: facebook
-      url: https://twitter.com/mlsuho
+      url: https://www.facebook.com/mlsuho
     - title: linkedin
       url: https://www.linkedin.com/in/mlsuho/
     - title: github
       url: https://www.github.com/mlsuho
-
+- name: Su Ho V.
+  pic: su-ho
+  position: Technical Leader
+  social:
+    - title: twitter
+      url: https://twitter.com/mlsuho
+    - title: facebook
+      url: https://www.facebook.com/mlsuho
+    - title: linkedin
+      url: https://www.linkedin.com/in/mlsuho/
+    - title: github
+      url: https://www.github.com/mlsuho
+      
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/mlsuho
   - title: facebook
-    url: https://twitter.com/mlsuho
+    url: https://www.facebook.com/mlsuho
 
 # Postal address (add as many lines as necessary)
 address:
