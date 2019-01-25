@@ -9,18 +9,12 @@ description: "Welcome to EffoGroup. Let's build business together."
 
 # Team names, titles and social links
 people:
-- name: Su Ho V.
-  pic: su-ho
-  position: Co-Founder
+- name: Hieu Ho V.
+  pic: hieu-ho
+  position: Founder
   social:
-    - title: twitter
-      url: https://twitter.com/mlsuho
     - title: facebook
-      url: https://www.facebook.com/mlsuho
-    - title: linkedin
-      url: https://www.linkedin.com/in/mlsuho/
-    - title: github
-      url: https://www.github.com/mlsuho
+      url: https://www.facebook.com/bida.ho
 - name: Su Ho V.
   pic: su-ho
   position: Co-Founder
