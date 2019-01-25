@@ -4,7 +4,21 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    {% assign today = site.time | date: '%s' %}
+                    {% assign start = '01-11-2018 07:00:00' | date: '%s' %}
+                    {% assign secondsSince = today | minus: start %}
+                    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+                    {% assign monthsSince = hoursSince | divided_by: 4 | divided_by: 7 | divided_by: 24 %}
+                    {% assign yearsSince = monthsSince | divided_by: 12  %}
+
+                    {% if yearsSince > 0 %}
+                        {% assign past = yearsSince %}
+                        {% assign unit = "year(s)" %}
+                    {% elsif monthsSince > 0 %}
+                        {% assign past = monthsSince %}
+                        {% assign unit = "month(s)" %}
+                    {% endif %}
+                    <h3 class="section-subheading text-muted">A journey started {{ past }} {{ unit }} ago by 2 brothers in Vietnam.</h3>
                 </div>
             </div>
             <div class="row">
@@ -12,29 +26,29 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/discuss.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>November 2018</h4>
+                                    <h4 class="subheading">Our Beginnings</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">With chatting between 2 brothers, we felt the need for business and e-commerce. Thus we decided to build tools and analytics system for our business.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/effo-name.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>January 2019</h4>
+                                    <h4 class="subheading">EffoGroup is Born</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">We chose Effo for the name of our group. Effo is Effort. A group effort - that is what makes a team work, a company work and a society work</p>
                                 </div>
                             </div>
                         </li>
@@ -44,25 +58,11 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>February 2010</h4>
+                                    <h4 class="subheading">First Business</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">We started first business with e-commerce and applied our tools to make our business grow.</p>
                                 </div>
                             </div>
                         </li>
