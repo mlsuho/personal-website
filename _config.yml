@@ -13,8 +13,12 @@ people:
   pic: hieu-ho
   position: Founder
   social:
+    - title: twitter
+      url: https://twitter.com/hovanhieu0509
     - title: facebook
       url: https://www.facebook.com/bida.ho
+    - title: linkedin
+      url: https://www.linkedin.com/in/bidaho/
 - name: Su Ho V.
   pic: su-ho
   position: Co-Founder
@@ -30,10 +34,10 @@ people:
       
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/mlsuho
   - title: facebook
-    url: https://www.facebook.com/mlsuho
+    url: https://www.facebook.com/EffoGroup-1237921399715561/
+  - title: phone
+    url: tel:+84935307484
 
 # Postal address (add as many lines as necessary)
 address:
